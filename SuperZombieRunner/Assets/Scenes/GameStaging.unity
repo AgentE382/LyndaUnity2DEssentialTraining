@@ -96,8 +96,9 @@ GameObject:
   - 33: {fileID: 724924762}
   - 64: {fileID: 724924761}
   - 23: {fileID: 724924760}
+  - 114: {fileID: 724924764}
   m_Layer: 0
-  m_Name: Quad
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -158,6 +159,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
+--- !u!114 &724924764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 724924759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 231e74e74c6294bbe9cc36c2b9a63ca3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textureSize: 32
 --- !u!1 &2050318295
 GameObject:
   m_ObjectHideFlags: 0
