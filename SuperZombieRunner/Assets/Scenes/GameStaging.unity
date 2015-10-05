@@ -97,6 +97,7 @@ GameObject:
   - 64: {fileID: 724924761}
   - 23: {fileID: 724924760}
   - 114: {fileID: 724924764}
+  - 114: {fileID: 724924765}
   m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
@@ -171,6 +172,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textureSize: 32
+--- !u!114 &724924765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 724924759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97bc3b17907b440a1882f3c4e260faa0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: {x: 1, y: 0}
 --- !u!1 &2050318295
 GameObject:
   m_ObjectHideFlags: 0
